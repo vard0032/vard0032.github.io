@@ -47,4 +47,163 @@ table {
 	border-spacing: 0;
 }
 
+
 /* ======== My CSS ========== */
+
+body { 
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #aad4cf;
+	color: black;
+}
+
+/* Styling for Header */
+
+header {
+	position: relative;
+	text-align: center;
+	background-color: #d4e9e7;
+	max-width: 950px;
+	margin: auto;
+}
+
+header img {
+	max-width: 950px; 
+	width: 100%;  /* 100% allows it to fill available space */
+	background-color:#d4e9e7 ;
+}
+
+.title-overlay {
+	position: absolute;
+	padding: 20px;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* title overlay allows for heading to be above image */
+}
+
+
+header h1 {
+	color: white;
+	font-size: 48px;
+	margin: 0;
+}
+
+/* navigation bar */
+
+.navbar {
+	display: flex;
+	background-color: #d4e9e7;
+	justify-content: center;
+	text-decoration: none;
+	color: black;
+
+	font-size: 24px;
+	text-align: center;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+	padding: 0px 110px 0px 110px;
+}
+
+nav ul li:not(:last-child) {
+	border-right: 1px solid black;
+	padding: 15px 0 15px 0;
+}
+
+nav ul li:last-child {
+	padding: 15px 0 15px 0;
+}
+
+/* heading 2 and 3 */
+h2, h3 {
+	color: #000000;
+	font-size: 36px;
+	margin: 15px;
+	
+}
+/* paragraph */
+p {
+	line-height: 1.6;
+	margin: 15px 0;
+}
+
+.wrapper { 
+	max-width: 910px;
+	padding:0 20px 20px 20px;
+	background-color: #d4e9e7;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Float on Article image */
+
+.article-image {
+	float: left;
+	margin: 0 20px 20px 0;
+	max-width: 300px;
+	height: auto;
+}
+
+/* list of facts */
+
+#facts {
+	margin-top: 20px;
+}
+
+#facts ul {
+	list-style-type: disc; 
+	padding-left: 20px;
+}
+
+/* contact conatiner styling */
+
+.contact-container{
+	border: 1px solid black;
+	padding: 20px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+.radio-group {
+	display: inline-flex;
+	margin: 10px 0 5px;
+	gap: 10px;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+form input, form textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #a5a5a5;
+	border-radius: 5px;
+}
+
+button {
+	display: flex;
+	border: 1px solid black;
+	background-color: #d4e9e7;
+	padding: 12px 12px;
+}
+
+/* Styling for footer */
+
+.footer {
+	max-width: 950px;
+	width: 100%;
+	background-color: #d4e9e7;
+	padding: 20px 40px 20px;
+	margin: 0 auto;
+	text-align: right;
+	color: black;
+	box-sizing: border-box;
+}
