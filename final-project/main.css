@@ -48,3 +48,565 @@ table {
 }
 
 /* ======= My CSS ======= */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+ }
+
+ img {
+	width: 100%;
+ }
+
+ /* ===== heading styles ===== */
+
+ h1, h2, h3, h4 {
+	font-weight: bold;
+ }
+
+ h1 {
+	color: white;
+	font-size: 3rem;
+	margin-bottom: 20px;
+	line-height: 14vw;
+	}
+
+  h2 {
+	font-size: 1.75rem;
+	margin: 20px 0;
+  }
+
+  h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1vh;
+  }
+  
+  h4 {
+	font-size: 1rem;
+  }
+
+  p {
+	line-height: 1.5;
+  }
+
+  /* ==== Header ===== */
+
+header {
+	background-color: #222;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding: 10px;
+}
+
+/* ==== Banner ==== */
+.banner {
+	background-repeat: no-repeat ;
+	background-color:  #c78c06;
+	width: 100%;
+}
+
+.banner img {
+	position: initial;
+	width: min-content;
+	float: left;
+}
+
+body .container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* ===== Navigation bar ===== */
+nav {
+	width: 100%;
+	background-color: #222;
+}
+
+nav ul li a {
+	display: block;
+	color: #c78c06;
+	text-decoration: none;
+	padding: 18px 0;
+}
+
+nav ul li a:hover {
+	background-color:#c78c06 ;
+	color: #222;
+}
+
+/*  ===== Search container ===== */
+.search-container {
+	width: 100%;
+	height: 4vh;
+	display: flex;
+}
+
+#search-box {
+	width: 90%;
+}
+
+#search-button {
+	background: #222;
+	color: #c78c06;
+	border-color: #c78c06;
+}
+
+.fa-search {
+	background-color: #222;
+	color: #c78c06;
+	border: none;
+	border-color: #c78c06;
+	cursor: pointer;
+	margin: 0;
+	font-size: 15px;
+	padding: 0px 4px;
+}
+/*  ==== Title container ===== */
+
+.home-container {
+	position: relative;
+	max-width: 800px; 
+	margin: 0 auto; /* Center it */
+  }
+  
+  .home-container .content-overlay {
+	position: absolute; 
+	bottom: 0; 
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+	color: #f1f1f1;
+	padding: 20px;
+	font-size: 10px;
+  }
+
+
+/*  ==== Connect with us button ==== */
+
+  .connect-button {
+	background-color: #c78c06;
+	border: none;
+	padding: 20px;
+	font-size: 15px;
+  }
+
+  #about {
+	background-color:#ffe6ac ;
+	padding: 10px;
+	font-size: .8rem;
+	padding-bottom: 20px;
+  }
+
+	/* ====== Our Services ======= */
+
+ .wrapper-services{
+	border: 10px solid white;
+ }
+  .services {
+    background-color: #ffe6ac;
+    padding-bottom: 5vh;
+    margin-bottom: 1vh;
+}
+
+.services h3 {
+    margin: 1vh;
+    margin-top: 2vh;
+}
+
+.services p {
+    margin: 1vh;
+    font-size: 0.7rem;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
+}
+
+  .service-button {
+	background-color: #222;
+	color: white;
+	border: none;
+	padding: 15px;
+	margin-left: 15px;
+  }
+
+ /* ===== Vision Container======= */
+
+  .vision-container {
+	position: relative;
+	margin-top: 10px;
+  }
+  
+  .vision-container .text-overlay {
+	position: absolute; /* Position the background text */
+	bottom: 0;
+	color: #f1f1f1; 
+	width: 90%; 
+	padding: 20px; /* Some padding */
+	font-size: .7rem;
+  }
+  
+  .vision-button {
+	background-color: #222;
+	color: white;
+	border-color: #c78c06;
+	padding: 15px;
+	background: rgb(0, 0, 0); 
+	background: rgba(0, 0, 0, 0.5); /* 0.5 opactity for background of button */
+  }
+  
+  /* ===== Our Team ======= */
+  .wrapper-team {
+	border: 10px solid white;
+  }
+
+.john-content {
+	background-color:#ffe6ac ;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: .7rem;
+  }
+  .bob-content {
+	background-color:#ffe6ac ;
+	padding: 10px;
+	margin-bottom: 10px;
+	font-size: .7rem;
+  }
+
+  hr {
+	border: 1px solid #c78c06;
+  }
+
+  /* ==== Contact form ===== */
+  
+  .wrapper-contact {
+    border: 10px solid white;
+ }
+
+  input[type=text], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc;
+	border-radius: 4px; 
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  input[type=email], select, textarea {
+	width: 100%; 
+	padding: 12px; 
+	border: 1px solid #ccc; 
+	border-radius: 2px; 
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; 
+	margin-bottom: 16px; 
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* ===== Submit button style ===== */
+
+  .submit {
+	background-color: #222;
+	color: #c78c06;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+  }
+
+  /* ===== Hours of operation ==== */
+
+  .hours-table {
+    width: 100%; 
+    max-width: 600px; 
+    border-collapse: collapse; /* Remove spacing between borders */
+    margin: 20px auto; 
+}
+
+.hours-table th, .hours-table td {
+    border: 1px solid #000; /* Black border */
+    padding: 10px; /* Add space around text */
+}
+
+.hours-table th {
+    background-color: #ffe6ac; /* Light yellow background for header */
+    font-weight: bold;
+}
+
+/* ===== Location ===== */
+
+iframe {
+    width: 100%;
+    height: 400px;
+    gap: 10px;
+
+}
+
+/*  ==== Footer ==== */
+
+.footer {
+	background-color: #222;
+	color: #c78c06;
+	padding-top: 40px;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  /* ======= Desktop style ====== */
+
+  @media screen and (min-width: 760px) {
+	header {
+		background-color: #222;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		padding: 10px;
+	}
+
+	.banner {
+        width: 10%;
+		display: flex;
+        margin: 0px 60px;
+		margin-right: 850px;
+    }
+
+	nav {
+        display: flex;
+        padding-bottom: 0;
+        align-items: center;
+    } 
+
+	/* display switched to flex rather than block so it can show up horizontally rather than vetical */
+
+    nav li {
+        margin: 2px;
+    }
+
+	nav ul {
+        list-style: none;
+        margin-left: -25px;
+        margin-right: 20px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+	nav ul li a {
+        display: block;
+        color: #c78c06;
+        text-align: center;
+        padding: 30px 30px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    nav a:hover {
+        background-color: #ffe6ac;
+        color: #c78c06;
+    }
+	.search-container {
+        width: 250px;
+        height: 40px;
+        display: flex;
+        margin-left: 600px;
+    }
+
+	/* ==== Header - Welcome banner ===== */
+
+	h1 {
+        font-size: 70px;
+        line-height: 100px;
+    }
+
+	.container {
+		max-width: 800px; 
+		margin: 0 auto; /* Center it */
+	  }
+	  
+	  .container .content {
+		position: absolute; 
+		background: rgb(0, 0, 0); 
+		background: rgba(0, 0, 0, 0.5);
+		color: #f1f1f1; 
+		padding: 50px 0; 
+		margin-bottom: 20px;
+		font-size: 10px;
+	  }
+	
+	  .connect-button {
+		background-color: #c78c06;
+		border: none;
+		padding: 20px;
+		font-size: 15px;
+		
+	  }
+
+	  .wrapper-services {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+	h2 {
+        font-size: 50px;
+    }
+	
+	.services-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 0.5rem;
+    }  
+    
+    /* Using nth-child to lay out the grid to match the mockup */
+
+    .services-grid div:nth-child(1) {
+        grid-column: 1/4;
+     }
+
+    .services-grid div:nth-child(2) {
+        grid-column: 4/7;
+    }
+    .services-grid div:nth-child(3) {
+        grid-column: 1/3;
+    }
+    .services-grid div:nth-child(4) {
+        grid-column: 3/5;
+    }
+    .services-grid div:nth-child(5) {
+        grid-column: 5/7;
+    }
+
+	/* ==== Styling for service buttons to fit grid ===== */
+
+	.service-button {
+        font-size: 22px;
+        display: block;
+        width: 90%;
+		font-size: 1rem;
+        text-align: center;
+        background-color: #222;
+        color: white;
+        text-decoration: none;
+        border-radius: 1px;
+        padding: 24px 0;
+        margin: 10px 10px;
+    }
+
+	.wrapper-team {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+	/* ===== Styling for our team grid ==== */
+
+    .ourteam-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "john-img john-content"
+            "bob-content bob-img";
+        max-width: 1200px;
+    }
+
+    .john-img {
+        display: block;
+        background-color: #ffe6ac;
+        margin-top: 1px;
+        margin-bottom: 0;
+    }
+
+    .bob-img {
+        display: block;
+        background-color: #ffe6ac;
+        padding-bottom: 0;
+    }
+
+    .john-content {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+	
+    .bob-content {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .john-img {
+        grid-area: john-img;
+    }
+
+    .john-content {
+        grid-area: john-content;
+    }
+
+    .bob-content {
+        grid-area: bob-content;
+    }
+
+    .bob-img {
+        grid-area: bob-img;
+    }
+
+
+	.column {
+		float: left;
+		width: 50%;
+	  }
+	  .row:after {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+	
+	.hours {
+        grid-area: hours;
+        background-color: #fff;
+    }
+    
+    .hours-table {
+        width: 450px;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    .hours-table th, 
+    .hours-table td {
+        border: 1px solid #000;
+        padding: 20px;
+    }
+
+    .hours-table th {
+        background-color: #ffe6ac;
+        color: black;
+    }
+
+    /*------------ Footer ----------------*/
+
+    footer p {
+        margin-left: 15px;
+    }
+}
